@@ -1,5 +1,7 @@
 # Data Analysis of OLX-Cars Dataset
 
+<p align="center"><img src="https://github.com/AbdullahProjects/Car-Price-Prediction/blob/main/Money.png" width="60%" height="auto"></p>
+
 Welcome to the project of Car Price Prediction. This project is designed to build a powerful regression who ables to predict closest prices of cars on unseen data. The [OLX Cars dataset](https://www.kaggle.com/datasets/abdullahkhanuet22/olx-cars-dataset),is used for this project that's avaiable on Kaggle, I personally scraped it using BeautifulSoup and Requests Libraries in Python. 
 
 ## Live Demo:
