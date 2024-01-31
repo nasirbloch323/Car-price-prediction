@@ -4,7 +4,7 @@ Welcome to the project of Car Price Prediction. This project is designed to buil
 
 ## Live Demo:
 
-See Project in Streamlit Webapp: https://data-analysis-olx-cars-dataset.streamlit.app/
+See Project in Streamlit Webapp: https://akk-car-price-prediction.streamlit.app/
 
 ## About this Project:
 
