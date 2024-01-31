@@ -10,7 +10,7 @@ See Project in Streamlit Webapp: https://akk-car-price-prediction.streamlit.app/
 
 ## About this Project:
 
-### Motivation:
+### Motivation/Purpose:
 
 Today, buying and selling cars online has become quite common. When someone decides to sell their car, they often wonder about the right price to ask for. For instance, if two people are selling the same car and one is asking for 20 Lac while the other is asking for 25 Lac, the person selling at 20 Lac is likely to attract more potential buyers. Similarly, when people are in the market to buy a car, they want to know the fair price for the vehicle they are interested in. That's where this project comes in – it aims to create a smart model that considers various features of a car to estimate a reasonable price. This way, both sellers and buyers can get an idea of the approximate value of a car with specific characteristics.
 
