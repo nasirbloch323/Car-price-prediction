@@ -1,3 +1,4 @@
+scikit-learn
 altair==5.2.0
 attrs==23.2.0
 blinker==1.7.0
