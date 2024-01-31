@@ -30,6 +30,10 @@ I use following tools to develop this whole project:
 - Plotly
 - Pickle
 
+### Model:
+
+Using **RandomForestRegressor()** algorithm, I build this model. Evaluation of model is based on **Root Mean Squared Error**, which is nearly 180000.
+
 ### Project Development Steps:
 
 1. **Download Dataset:** Download the dataset from Kaggle.
