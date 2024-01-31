@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open("3. Model/pipeline.pkl", "rb"))
+loaded_model = pickle.load(open("3. Model/pipeline.pkl", "rb"))
 df  = pickle.load(open("1. Dataset/dataset.pkl", "rb"))
 
 st.set_page_config(page_title="Car Price Prediction", page_icon="Money.png")
@@ -55,7 +55,7 @@ if st.button("Predict Price"):
     predict_["KM's driven_Range"] = pd.cut(df["KM's driven"], bins=bins, labels=labels)
     
     # Predict Price
-    predicted_price = model.predict(predict_)
+    predicted_price = loaded_model.predict(predict_)
 
     # Displaying the predicted price
     st.subheader(f"PKR Rs./ {int(predicted_price)}")
