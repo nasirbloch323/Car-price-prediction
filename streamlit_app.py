@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open("Model/pipeline.pkl", "rb"))
-df  = pickle.load(open("Dataset/dataset.pkl", "rb"))
+model = pickle.load(open("3. Model/pipeline.pkl", "rb"))
+df  = pickle.load(open("1. Dataset/dataset.pkl", "rb"))
 
 st.set_page_config(page_title="Car Price Prediction", page_icon="Money.png")
 st.title("Cars Price Prediction")
